@@ -10,6 +10,7 @@ const fileRepos = async username => {
             repo => `
             <li>
                 <a href="${repo.html_url}">${repo.name}</a>
+                (⭐ ${repo.stargazers_count})
             </li>
         `
         )
