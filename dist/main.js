@@ -12,7 +12,7 @@ const fileRepos = async username => {
                 <a href="${repo.html_url}">${repo.name}</a>
                 (⭐ ${repo.stargazers_count})
             </li>
-        `
+            `
         )
         .join('');
 
